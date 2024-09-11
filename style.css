@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+.square {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    border: 1px solid black;
+    min-width: 30px;
+    aspect-ratio: 1 / 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
