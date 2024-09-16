@@ -1,3 +1,8 @@
+.btn {
+    display: block;
+    margin: 10px auto 10px;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -9,11 +14,15 @@
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
-    border: 1px solid black;
+    border: 1px solid rgb(241, 241, 241);
     min-width: 30px;
     aspect-ratio: 1 / 1;
     justify-content: center;
     align-items: center;
+}
+
+.square-black {
+    background-color: black;
 }
 
 .column {
