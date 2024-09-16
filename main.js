@@ -17,12 +17,10 @@ function createGrid(size) {
     for (let i = 0; i < size; i++) {
         const column = document.createElement("div");
         column.classList.add("column");
-        //row.textContent = i;
         container.appendChild(column);
         for (let j = 0; j < size; j++) {
             const square = document.createElement("div");
             square.classList.add("square");
-            //square.textContent = i + 1;
             column.appendChild(square);
     
             square.addEventListener("mouseover", () => {
